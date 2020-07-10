@@ -87,13 +87,13 @@ rename it to `engine.json` and configure it with your Engine's specific details.
 cp src/config/engine.json.example src/config/engine.json
 ```
 
-## Deploy and Share
+## Deploy and Serve
 
 To deploy:
 
 ```
-npm run build
-npm install
+npm install -g serve
+serve -s build -l 3000 
 ```
 
 ## Customization
