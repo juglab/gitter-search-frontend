@@ -1,5 +1,8 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+# Host dependent
+/node_modules
+
 # testing
 /coverage
 

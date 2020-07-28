@@ -1,13 +1,25 @@
 {
-  "endpointBase": "http://127.0.0.1:3002",
-  "engineName": "your-engine-name",
-  "hostIdentifier": "host-XXXXX",
-  "searchKey": "search-XXXXXXXXXXXXXXXXXXXXXXX",
-  "searchFields": ["title", "description"],
-  "resultFields": ["id", "title", "anotherField", "someField", "created"],
-  "querySuggestFields": ["title"],
-  "titleField": "title",
-  "urlField": "url",
-  "sortFields": ["title", "anotherField"],
-  "facets": ["anotherField", "someField"]
+  "engineName": "gitter-search2",
+  "hostIdentifier": "host-122z7g",
+  "endpointBase": "http://localhost:3002",
+  "searchKey": "search-ghx86j8t2jiiug2yvtsrchty",
+  "resultFields": [
+    "room_name",
+    "group_name",
+    "username",
+    "display_name",
+    "message",
+    "sent",
+    "gitterid",
+    "id"
+  ],
+  "sortFields": [
+    "sent"
+  ],
+  "facets": [
+    "room_name",
+    "group_name",
+    "username",
+    "sent"
+  ]
 }
