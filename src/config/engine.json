@@ -1,0 +1,27 @@
+{
+  "engineName": "gitter-index",
+  "hostIdentifier": "host-fggcwa",
+  "endpointBase": "http://localhost:3002",
+  "searchKey": "search-mjkiqfimf7zterohkiigdgkt",
+  "resultFields": [
+    "room_name",
+    "gitterid",
+    "group_name",
+    "display_name",
+    "message",
+    "sent",
+    "username",
+    "id"
+  ],
+  "sortFields": [
+    "sent"
+  ],
+  "facets": [
+    "group_name",
+    "room_name",
+    "username",
+    "sent"
+  ],
+  "titleField": "username",
+  "urlField": "gitterid"
+}

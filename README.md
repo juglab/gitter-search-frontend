@@ -92,6 +92,7 @@ cp src/config/engine.json.example src/config/engine.json
 To deploy:
 
 ```
+npm build
 npm install -g serve
 serve -s build -l 3000 
 ```
