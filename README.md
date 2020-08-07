@@ -1,22 +1,4 @@
-A configurable, generic search UI for gitter search backed by an [Elastic App Search](https://www.elastic.co/products/app-search) Engine.
-
-## Contents
-
-- [Getting started](#getting-started-)
-- [Usage](#usage)
-- [FAQ](#faq-)
-- [Contribute](#contribute-)
-- [License](#license-)
-
----
-
-## Getting started 
-
-The Reference UI is great for:
-
-- search demos
-- functional tests of App Search Engine data
-- a starting point for new search experiences
+Gitter search UI for gitter search backed by an [Elastic App Search](https://www.elastic.co/products/app-search) Engine.
 
 Requires [npm](https://www.npmjs.com/).
 
@@ -68,24 +50,6 @@ The following is a complete list of options available for configuration in [engi
 | `urlField`           | String        | optional          | A field with a url to use as a link in results.                                                                                                                                        |
 | `sortFields`         | Array[String] | optional          | A list of fields that will be used for sort options.                                                                                                                                   |
 | `facets`             | Array[String] | optional          | A list of fields that will be available as "facet" filters. Read more about facets within the [App Search documentation](https://swiftype.com/documentation/app-search/guides/facets). |
-
-### External configuration
-
-If you are embedding this app inside of another page, and you would like to
-source the configuration from outside of the `engine.json` file,
-you can simply write the configuration directly to `window.appConfig`.
-
-### If you are checking this project out directly from GitHub... <a id="github"></a>
-
-You can follow the previous steps, but then you will need to configure
-[engine.json](src/config/engine.json).
-
-To do so, make a copy of [engine.json.example](src/config/engine.json.example),
-rename it to `engine.json` and configure it with your Engine's specific details.
-
-```bash
-cp src/config/engine.json.example src/config/engine.json
-```
 
 ## Deploy and Serve
 
