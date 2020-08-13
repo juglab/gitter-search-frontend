@@ -14,6 +14,7 @@ import {
   Sorting,
   WithSearch
 } from "@elastic/react-search-ui";
+import ResultView from "./ResultView.js";
 import { Layout } from "@elastic/react-search-ui-views";
 import "@elastic/react-search-ui-views/lib/styles/styles.css";
 
@@ -70,6 +71,7 @@ export default function App() {
                     <Results
                       titleField={getConfig().titleField}
                       urlField={getConfig().urlField}
+                      resultView={ResultView}
                       shouldTrackClickThrough={true}
                     />
                   }

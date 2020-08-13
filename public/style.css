@@ -1,0 +1,29 @@
+.sui-result.dense {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.sui-result.dense + .sui-result.dense {
+    margin-top: 5px;
+}
+
+.sui-result a {
+    text-decoration: none;
+    color: #424243;
+}
+
+.sui-result-header .author {
+    font-weight: bold;
+}
+
+.sui-result-header, .sui-result-body {
+    display: block;
+    padding: 10px;
+}
+
+
+.sui-result-header {
+    font-size: 85%;
+    background-color: #f1f1f4;
+    padding: 5px 10px;
+}
