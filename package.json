@@ -12,7 +12,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
-    "serve": "^11.3.2"
+    "serve": "^11.3.2",
+    "showdown": "^1.9.1"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
