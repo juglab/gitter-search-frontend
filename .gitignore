@@ -2,6 +2,7 @@
 
 # Host dependent
 /node_modules
+/build
 
 # testing
 /coverage
