@@ -1,7 +1,7 @@
 {
   "engineName": "gitter-index",
   "hostIdentifier": "host-fggcwa",
-  "endpointBase": "https://fiji-search.mpi-cbg.de/",
+  "endpointBase": "https://fiji-search.mpi-cbg.de",
   "searchKey": "search-mjkiqfimf7zterohkiigdgkt",
   "resultFields": [
     "room_name",
